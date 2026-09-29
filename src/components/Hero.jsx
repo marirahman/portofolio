@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
+import fotoProfil from '../assets/foto_jas-removebg-preview.png';
 
 const Hero = () => {
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
-  const fullName = "Nama Kamu"; // <-- Jangan lupa ubah ini lagi
+  const fullName = "M.Ari Rahman"; // <-- Jangan lupa ubah ini lagi
 
   useEffect(() => {
     const typingSpeed = 150;
@@ -91,7 +92,7 @@ const Hero = () => {
           
           <div className="relative w-full h-full bg-slate-900 rounded-full p-2 lg:p-3 border border-slate-700 shadow-2xl">
             <img 
-              src="portofolio-saya\src\assets\foto_jas-removebg-preview.png" 
+              src={fotoProfil} 
               alt="Foto Profil" 
               className="w-full h-full object-cover rounded-full filter grayscale group-hover:grayscale-0 transition duration-500"
             />
