@@ -1,5 +1,3 @@
-import { Code, Layout } from 'lucide-react';
-
 const About = () => {
   const webSkills = ['React.js', 'Tailwind CSS', 'JavaScript ES6+', 'RESTful API'];
   const itSkills = ['Linux Administration', 'Jaringan Dasar', 'Hardware Diagnostic', 'Tech Support'];
