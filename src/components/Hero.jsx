@@ -1,5 +1,3 @@
-import { ArrowRight, Code, User, Mail } from 'lucide-react';
-
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen bg-slate-950 flex items-center justify-center p-4 pt-24 overflow-hidden">
